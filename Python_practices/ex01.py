@@ -1,24 +1,20 @@
-# 파이썬 입출력
+print("Hello, python world")
+a=1
+print(type(a))
+b='1'
+print(type(b))
+c=1.0
+print(type(c))
+d=[1]
+print(type(d))
 
-print("Hello world!")
-x = 3; y = 5
-print("x = " , x, ', y = ', y, ', x + y = ', x+y)
-print(type(x))
+a='He'
+b='llo'
+c=', World'
+print(a+b+c)
 
+i = 3; j = 5;
+print( i, j)
 
-# 수치형 자료형과 문자열 자료형의 특징
-
-print("d안녕하세요");print("학습자님");print("이번 회차도 수고하셨습니다.")
-print("안녕하세요","학습자님", "이번 회차도 수고하셨습니다.")
-print("안녕하세요 \n학습자님 \n이번 회차도 수고하셨습니다.") # \ > 이스케이프 문자
-
-a = 1
-b = 2
-print(a+b)
-
-# input() 함수는 문자 형식으로 값을 받는다. 따라서 int() 내장 함수를 사용해 형변환을 해줌.
-
-a = '104'
-print(3*a+a+a) # '*' 은 문자열과 함께 사용하면 반복
-a = 104
-print(3*a+a+a)
+i, j = j, i #tmp 생성하지 않아도 됨.... 신기하네
+print(i, j)
