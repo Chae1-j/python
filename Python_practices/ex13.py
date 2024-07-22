@@ -20,7 +20,7 @@
 #----------------------------------------------------실습--------------------------------------------------------------
 #1. beautifulSoup 모듈을 활용하여 급상승 검색어를 가져오는 웹 크롤링 코드 작성
 import bs4
-import urllib from urllib.request import Request, urlopen
+#import urllib from urllib.request import Request, urlopen
 import urllib.request
 url = "https://naver.com"
 web_page = urllib.request.urlopen(url)
