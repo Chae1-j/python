@@ -1,5 +1,9 @@
 # ArrayClass구현하기
 # - 용량이 미리 정해진 리스트 사용
+# 리스트 ADT를 클래스로 구현하기
+# - 크기가 미리 정해진 리스트
+# - 파이썬 리스트의 다양한 메소드를 사용하지 않음
+
 class ArrayList :
     def __init__(self, capacity = 10):
         self.capacity = capacity
