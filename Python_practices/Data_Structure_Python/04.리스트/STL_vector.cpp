@@ -23,7 +23,7 @@ int main() {
         if(*it % 2 == 0)
             it = vec.erase(it);
         else ++it;
-    
+     
     }
 
     cout << "After : " << vec << endl;
