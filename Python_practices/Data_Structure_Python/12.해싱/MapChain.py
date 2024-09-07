@@ -15,7 +15,7 @@ class HashChainMap :
     def __init__(self, M):
         self.table = [None] * M
         self.M = M
-    def hashFn(self,key) :    # ㅏ됴 rk ans자열인 경우의 해시 함수
+    def hashFn(self,key) :      # key 가 문자열인 경우의 해시 함수
         sum = 0
         for c in key :          # 문자열의 모든 문자 c에 대해
             sum = sum + ord(c)
