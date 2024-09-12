@@ -1,3 +1,4 @@
+
 def dfs_cc(graph, color,v, visited):
     if v not in visited :
         visited.add(v)
@@ -16,3 +17,6 @@ def find_connected_component(graph) :
             color = []
             dfs_cc(graph, color, vtx,visited)
             colourList.append(color)
+            
+print("그래프 연결성분 개수 = %d" % len(colourList))
+print(colourList)
