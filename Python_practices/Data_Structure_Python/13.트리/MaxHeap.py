@@ -66,3 +66,4 @@ for elem in data:
 import heapq
 data = [2, 5, 4, 8, 9, 3, 7, 3]
 heapq.heapify(data)
+print(heapq.headpop(data))
