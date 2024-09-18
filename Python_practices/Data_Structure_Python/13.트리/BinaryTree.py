@@ -1,7 +1,7 @@
 #=================================================================================================================
 print(5/2, ', ',5//2)
 
-class Tnode :
+class TNode :
     def __init__(self,elem, left=None, right=None):
          self.elem = elem
          self.left = left
@@ -30,12 +30,12 @@ def postorder(n):
 
 def testBinaryTree():
     print("\n====================이진트리 테스트=================================================")
-    d = Tnode('D',None,None)
-    e = Tnode('E',None,None)
-    b = Tnode('B',d,e)
-    f = Tnode('F',None,None)
-    c = Tnode('C',f,None)
-    root = Tnode('a',b,c)
+    d = TNode('D',None,None)
+    e = TNode('E',None,None)
+    b = TNode('B',d,e)
+    f = TNode('F',None,None)
+    c = TNode('C',f,None)
+    root = TNode('a',b,c)
 
     print('\n In-Order : ', end='')
 
